@@ -3,7 +3,6 @@ import './About.css'
 import profPic from "../images/profpic.jpg"
 import resume from "../files/Resume.docx"
 import HoverButton from "./HoverButton.js"
-import AOS from 'aos'
 import 'aos/dist/aos.css';
 
 class About extends React.Component {
@@ -20,7 +19,7 @@ class About extends React.Component {
             <div className="content">
                 <div className="text-section" data-aos ="flip-down" data-aos-duration="750">
                     <p className="text"> Hi, I'm Raman, a second-year student studying Computer Science at 
-                    <a className = "highlight" target = "_blank" href="https://www.ics.uci.edu/"> UC Irvine</a>. 
+                    <a className = "highlight" target = "_blank" rel="noopener noreferrer" href="https://www.ics.uci.edu/"> UC Irvine</a>. 
                     I enjoy exploring new concepts of Computer Science. From Web Development to Machine
                     Learning, I am always interested in creating new innovative products. I always try
                     to create change in the world through my work, one step at a time. </p>

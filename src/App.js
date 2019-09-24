@@ -1,4 +1,4 @@
-import React, { Component } from 'react'; 
+import React from 'react'; 
 import logo from './logo.svg';
 import './App.css';
 import NavBar from './Components/NavBar.js'
@@ -16,16 +16,19 @@ function App() {
     <div className="App">
       <link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700&display=swap" rel="stylesheet"></link>
       <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
       <header className="App-heading" id="home" data-aos="fade-up" data-aos-duration="1000">
-        
-        <p className="greeting">
-          Hello, my name is <a className="name" >Raman Gupta</a>
-        </p>
-        <p>
-          I am a Creator.
-        </p>
-        <br/>
-        <HoverButton page="#about" text="See my work"></HoverButton>
+        <div>
+          
+          <p className="greeting">
+            Hello, my name is <span className="name" >Raman Gupta</span>.
+          </p>
+          <p>
+            I am a Creator.
+          </p>
+          <br/>
+          <HoverButton page="#about" text="See my work"></HoverButton>
+        </div>
         
       </header>
       <NavBar>        
@@ -35,6 +38,10 @@ function App() {
       <Projects></Projects>
 
       <Contact></Contact>
+
+      <footer>
+        <a href="https://github.com/ramanxg/Portfolio" target="_blank" rel="noopener noreferrer">Designed and Built by Raman Gupta</a>
+      </footer>
       
     </div>
     

@@ -1,13 +1,12 @@
 import React from 'react'
 import "./Projects.css"
-import AOS from 'aos'
 import 'aos/dist/aos.css';
 import gitimage from "../images/github.svg"
 import neuralnet from "../images/neuralnet.png"
 import convnet from "../images/convnet.png"
 import reco from "../images/reco.png"
 import twit from "../images/twitter.jpg"
-import reclaim from "../images/map.PNG"
+import reclaim from "../images/website.png"
 
 class Projects extends React.Component {
 
@@ -20,7 +19,7 @@ class Projects extends React.Component {
                 <h2 className="title" data-aos="fade-right">Machine Learning</h2>
                 <div className="categories ml-projects">
                     <a target="_blank" href="https://github.com/ramanxg/Sentiment-Analysis-Model" 
-                    data-aos="fade-up" className="example">
+                    rel="noopener noreferrer" data-aos="fade-up" data-aos-delay="500" data-aos-duration="750" className="example">
 
                             <div className="base">
                                 <div className="image-container">
@@ -54,7 +53,8 @@ class Projects extends React.Component {
                     </a>
                     
 
-                    <a target="_blank" href="https://github.com/ramanxg/Sentiment-Analysis-Model" data-aos="fade-up" className="example">
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/ramanxg/Sentiment-Analysis-Model"
+                    data-aos-delay="500" data-aos-duration="750" data-aos="fade-up" className="example">
                         
                             <div className="base">
                                 <div className="image-container">
@@ -86,7 +86,8 @@ class Projects extends React.Component {
                                 
                             </div>
                     </a>
-                    <a target="_blank" href="https://github.com/ramanxg/Movie-Recommender" data-aos="fade-up" className="example">
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/ramanxg/Movie-Recommender"
+                    data-aos-delay="500" data-aos-duration="750" data-aos="fade-up" className="example">
                         
                             <div className="base">
                                 
@@ -122,7 +123,8 @@ class Projects extends React.Component {
                 <h2 className="title" data-aos="fade-right">App Development</h2>
                 <div className="categories web-projects">
                     
-                    <a target="_blank" href="https://github.com/ramanxg/TwitterSentiment" data-aos="fade-up" className="example">
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/ramanxg/TwitterSentiment"
+                    data-aos-delay="500" data-aos-duration="750" data-aos="fade-up" className="example">
 
                         <div className="base">
                             <div className="image-container">
@@ -150,7 +152,8 @@ class Projects extends React.Component {
                     </a>
 
 
-                    <a target="_blank" href="https://github.com/chenaaron3/CitrusHacks2019" data-aos="fade-up" className="example">
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/chenaaron3/CitrusHacks2019"
+                    data-aos-delay="500" data-aos-duration="750" data-aos="fade-up" className="example">
 
                         <div className="base">
                             <div className="image-container">
@@ -183,7 +186,8 @@ class Projects extends React.Component {
                             
                         </div>
                     </a>
-                    <a target="_blank" href="https://github.com/ramanxg/cARd" data-aos="fade-up" className="example">
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/ramanxg/cARd" 
+                    data-aos-delay="500" data-aos-duration="750" data-aos="fade-up" className="example">
 
                         <div className="base">
                             
