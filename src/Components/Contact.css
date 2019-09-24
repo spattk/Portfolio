@@ -1,0 +1,16 @@
+#contact {
+    overflow: hidden;
+    padding: 60px;
+    padding-bottom: 600px;
+}
+
+.information {
+    margin: auto;
+    width: 40%;
+    min-width: 600px;
+    justify-content: space-evenly;
+}
+
+.information p{
+    margin: 40px;
+}

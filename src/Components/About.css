@@ -1,0 +1,99 @@
+.about {
+    margin-top: 0px;
+    padding: 60px;
+}
+
+hr {
+    width: 60px;
+    border: 2px solid black;
+  
+  }
+  
+h1 {
+    font-size: 36px;
+    margin: 0px;
+    padding-bottom: 0px;
+}
+
+.content {
+    display: flex;
+    margin: 50px   50px;
+}
+
+.text-section {
+    flex: 50%;
+    text-align: left;
+    line-height: 1.5;
+}
+
+img {
+    
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+}
+
+.image {
+    flex: 50%;
+    padding: 30px;
+    padding-top: 0px;
+}
+
+
+.highlight {
+    color: #51dacf;
+    text-decoration: None;
+}
+
+.highlight:hover {
+    color: #41aaa8;
+    transition: color 1s ease-in-out;
+}
+
+.skills {
+    display: flex;
+    margin-left: 0px;
+    padding-left:0px;
+    justify-content: space-around;
+    
+}
+
+.skillCategory {
+    background: white;
+    flex: 50%;
+    list-style-type: disc;
+    display: grid;
+    overflow: visible;
+    
+}
+
+li {
+    margin-left: 20px;
+    
+}
+
+.resume {
+    margin: 10px;
+    width: 150px;
+    font-size: 10px;
+}
+
+.button {
+    color: #51dacf;
+    border: 2px solid #51dacf;
+    display: inline-block;
+    margin: 10px;
+    width: 150px;
+    font-size: 18px;
+}
+
+.button:hover {
+    color: white;
+}   
+
+.button span:after {
+    content: '\21d3';
+    color: white;
+    
+}
+

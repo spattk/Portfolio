@@ -1,0 +1,123 @@
+.projects {
+    background-color: #d2fafb;
+    padding: 60px;
+    overflow: hidden; 
+}
+
+.portfolio {
+    text-align: left;
+}
+
+.categories {
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.git-image {
+    width: 100px;
+    height: 100px;
+}
+
+.example {
+    background-color: #51dacf;
+    max-width: 100%;
+    width: 350px;
+    margin: 10px 10px;
+    padding: 0px 10px;
+    height: auto;
+    min-height: 300px;      
+    text-align: center;
+    position: relative;
+    display: block;
+    text-decoration: none;
+    opacity: 1;
+}
+
+.base {
+    position: relative;
+    display: block;
+    height: 100%;
+    padding: 10px;
+    overflow: hidden;
+    font-size: 14px;
+    line-height: 1.25;
+    
+    justify-items: center;
+}
+
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(92, 124, 177, 0.9);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: 0.5s ease;
+    z-index: 50;
+}
+
+.example:hover .overlay{
+    height: 100%;  
+}
+
+.example:hover {
+    opacity: 0.5;  
+}
+
+.github {
+    color: rgba(44, 0, 62, 1);
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+.title {
+    margin-left: 50px;
+}
+
+.label-img {
+    width: 85%;
+    height: auto;
+    padding: auto;
+    border-radius: 0px;
+    margin: 10px;
+}
+
+.image-container {
+    height: 78%;
+    margin: auto;
+}
+
+.app-img {
+    width: 35%;
+    margin: 10px 20px 30px;
+}
+
+.tool-list {
+    background: transparent;
+    font-family: "Lucida Console", Monaco, monospace;
+    position: relative;
+    bottom: 0px;
+    margin-bottom: 20px;
+    display: table;
+    justify-content: space-evenly;
+    text-align: center;
+    line-height: 1.75;
+    font-size: 12px;
+
+}
+
+.tool-list li {
+    display: inline-block;
+    float: left;
+    flex: 15%;
+}

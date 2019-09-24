@@ -1,0 +1,47 @@
+.button {
+    font-family: 'Railway', sans-serif;
+    background-color: transparent; 
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 20px;
+    box-shadow: none;
+    transition: background 0.3s ease-in-out;
+    outline: none;
+    text-align: center;
+    width: 180px;
+    border: 2px solid white;
+    border-radius: 2px;
+}
+
+.button:hover {
+    background-color: #51dacf;
+    cursor: pointer;
+    border-color: #51dacf;
+    box-shadow: none;
+}
+  
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\21d2';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
