@@ -21,7 +21,7 @@ class About extends React.Component {
                 looking for a new team member. My e-mail is <span>ramanxg@gmail.com</span>,
                 or you can click below.</p>
                 <div className="email" data-aos="fade" data-aos-delay="500" data-aos-duration="1000">
-                    <HoverButton target="_blank" page="mailto:ramanxg@gmail.com" text="Email Me!"></HoverButton>
+                    <HoverButton class="email-button" target="_blank" page="mailto:ramanxg@gmail.com" text="Email Me!"></HoverButton>
                 </div>
                 
             </div>
