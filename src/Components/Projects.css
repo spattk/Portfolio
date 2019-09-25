@@ -68,6 +68,10 @@
     opacity: 0.5;  
 }
 
+.example:active {
+    color: black;
+}
+
 .github {
     color: rgba(44, 0, 62, 1);
     font-size: 20px;
