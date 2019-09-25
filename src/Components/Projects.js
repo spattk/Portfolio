@@ -54,7 +54,7 @@ class Projects extends React.Component {
                     </a>
                     
 
-                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/ramanxg/Sentiment-Analysis-Model"
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/ramanxg/Fruits-Classification"
                     data-aos-delay="500" data-aos-duration="750" data-aos="fade-up" className="example">
                         
                             <div className="base">

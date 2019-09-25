@@ -18,7 +18,9 @@
 .information p span {
     color: #51dacf;
 }
-
+.button span:after {
+    content: '\21d2';
+}
 
 svg {
     width: 40px;
