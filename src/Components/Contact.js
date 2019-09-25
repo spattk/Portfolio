@@ -15,11 +15,12 @@ class About extends React.Component {
             </div>
 
             <div className="information">
-                <p data-aos="flip-down" data-aos-delay="250" data-aos-duration="1000">I am currently looking for a Software Engineering Internship, but
-                feel free to contact me for anything. If you have any questions about my projects, or are
-                looking for a new team member, please do let me know! My e-mail is <span>ramanxg@gmail.com</span>,
+                <p data-aos="fade-up" data-aos-delay="250" data-aos-duration="1000">
+                I am currently looking for a Software Engineering Internship, and am open to any offers. However,
+                feel free to contact me if you have any questions about my projects, or are
+                looking for a new team member. My e-mail is <span>ramanxg@gmail.com</span>,
                 or you can click below.</p>
-                <div className="email" data-aos="fade-right" data-aos-delay="500" data-aos-duration="1000">
+                <div className="email" data-aos="fade" data-aos-delay="500" data-aos-duration="1000">
                     <HoverButton target="_blank" page="mailto:ramanxg@gmail.com" text="Email Me!"></HoverButton>
                 </div>
                 

@@ -7,6 +7,7 @@ import convnet from "../images/convnet.png"
 import reco from "../images/reco.png"
 import twit from "../images/twitter.jpg"
 import reclaim from "../images/website.png"
+import card from "../images/cARd.jpg"
 
 class Projects extends React.Component {
 
@@ -199,7 +200,7 @@ class Projects extends React.Component {
                                 the playing field and hand. We used ARCore anchors to generate cards in the
                                 environment. 
                                 </p>
-                                <img src={reco} alt="" className="label-img"></img>
+                                <img src={card} alt="" className="label-img"></img>
                             </div>
                             
                             <ul className="tool-list">

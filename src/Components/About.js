@@ -17,7 +17,7 @@ class About extends React.Component {
 
 
             <div className="content">
-                <div className="text-section" data-aos ="flip-down" data-aos-duration="750">
+                <div className="text-section" data-aos ="fade-up" data-aos-duration="750">
                     <p className="text"> Hi, I'm Raman, a second-year student studying Computer Science at 
                     <a className = "highlight" target = "_blank" rel="noopener noreferrer" href="https://www.ics.uci.edu/"> UC Irvine</a>. 
                     I enjoy exploring new concepts of Computer Science. From Web Development to Machine
