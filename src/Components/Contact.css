@@ -5,9 +5,9 @@
 
 .information {
     margin: auto;
-    width: 50%;
-    min-width: 650px;
+    width: 60%;
     justify-content: space-evenly;
+    text-align: center;
 }
 
 .information p{

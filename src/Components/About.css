@@ -1,6 +1,7 @@
 .about {
     margin-top: 0px;
     padding: 60px;
+    overflow: auto;
 }
 
 hr {
