@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://ramanxg.github.io/Portfolio/",
   "dependencies": {
+    "aos": "^2.3.4",
     "gh-pages": "^2.1.1",
     "raleway-webfont": "^3.0.1",
     "react": "^16.9.0",

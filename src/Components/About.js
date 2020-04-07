@@ -38,7 +38,7 @@ class About extends React.Component {
                                 <li>JavaScript</li>
                                 <li>HTML</li>
                                 <li>CSS</li>
-                                <li>C#</li>
+                                <li>SQL</li>
                             </ul>
                         </div>
                         <div>
@@ -46,10 +46,10 @@ class About extends React.Component {
                             <ul className="skillCategory">
                                 <li>Tensorflow</li>
                                 <li>Keras</li>
-                                <li>ReactJS</li>
+                                <li>React.js</li>
                                 <li>React Native</li>
                                 <li>Flask</li>
-                                <li>Unity</li>
+                                <li>AWS</li>
                                 
                             </ul>
                         </div>

@@ -8,6 +8,8 @@ import reco from "../images/reco.png"
 import twit from "../images/twitter.jpg"
 import reclaim from "../images/website.png"
 import card from "../images/cARd.jpg"
+import allerg from "../images/allergize.jpg"
+import portal from "../images/portal.png"
 
 class Projects extends React.Component {
 
@@ -87,26 +89,25 @@ class Projects extends React.Component {
                                 
                             </div>
                     </a>
-                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/ramanxg/Movie-Recommender"
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/ramanxg/Allergize"
                     data-aos-delay="500" data-aos-duration="750" data-aos="fade-up" className="example">
                         
                             <div className="base">
                                 
                                 <div className="image-container">
-                                    <h3>Movie Recommendation</h3>
-                                    <p>A Movie Recommendation System based from Kaggle's MovieLens dataset. The system uses
-                                    Demographic Filtering, Content Based Filtering, and Item-based Collaborative Filtering, 
-                                    to create recommendations. Pandas and NumPy was used for data manipulation, and Scikit-Learn
-                                    for kernels.
+                                    <h3>Allergize (Best AI Hack - HackUCI 2020)</h3>
+                                    <p> I collaborated with a team of four to develop a mobile app that takes a
+                                         picture of food, and informs the user of what allergens the food may contain. I was 
+                                         responsible for connecting the front-end and back-end with our API with Express, 
                                     </p>
-                                    <img src={reco} alt="" className="label-img"></img>
+                                    <img src={allerg} alt="" className="label-img app-img"></img>
                                 </div>
                                 
                                 <ul className="tool-list">
-                                    <li>Python</li>
-                                    <li>Pandas</li>
-                                    <li>NumPy</li>
-                                    <li>Scikit-Learn</li>
+                                    <li>JavaScript</li>
+                                    <li>React Native</li>
+                                    <li>Express.js</li>
+                                    <li>Nodes.js</li>
                                     
                                 </ul>
                             </div>
@@ -123,7 +124,43 @@ class Projects extends React.Component {
                 </div>
                 <h2 className="title" data-aos="fade-right">App Development</h2>
                 <div className="categories web-projects">
-                    
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/icssc-projects/PeterPortal" 
+                    data-aos-delay="500" data-aos-duration="750" data-aos="fade-up" className="example">
+
+                        <div className="base">
+                            
+                            <div className="image-container">
+                                <h3>PeterPortal (In Progress)</h3>
+                                <p>A website that can search through the UCI catalogue for courses and includes 
+                                    professor reviews, grade distributions, and a schedule planner.This was created
+                                    in a team of twelve in the ICSSC Projects Committee. I was responsible for designing
+                                    the SQL database for reviews, and scraping the UCI catalogue for course and faculty
+                                    information. We hosted our servers on AWS RDS and ElasticSearch.
+                                </p>
+                                <img src={portal} alt="" className="label-img"></img>
+                            </div>
+                            
+                            <ul className="tool-list">
+                                <li>JavaScript</li>
+                                <li>Python</li>
+                                <li>SQL</li>
+                                <li>Beautiful Soup</li>
+                                <li>React</li>
+                                <li>Express.js</li>
+                                <li>Express</li>
+                                <li>AWS</li>
+                                
+                            </ul>
+                        </div>
+
+                        <div className="overlay">
+                            <div className="github">
+                                <p> See the Code on Github! </p>
+                                <img src={gitimage} alt="Octocat" className="git-image"></img>
+                            </div>
+                            
+                        </div>
+                    </a>
                     <a target="_blank" rel="noopener noreferrer" href="https://github.com/ramanxg/TwitterSentiment"
                     data-aos-delay="500" data-aos-duration="750" data-aos="fade-up" className="example">
 
@@ -187,38 +224,6 @@ class Projects extends React.Component {
                             
                         </div>
                     </a>
-                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/ramanxg/cARd" 
-                    data-aos-delay="500" data-aos-duration="750" data-aos="fade-up" className="example">
-
-                        <div className="base">
-                            
-                            <div className="image-container">
-                                <h3>cARd</h3>
-                                <p>An Android app that lets users manipulate a deck of cards in an Augmented
-                                Reality Environment. Through AppDev Club, we assembled a team of 4 to take on
-                                this project, and I was responsible for creating card renders, and separting
-                                the playing field and hand. We used ARCore anchors to generate cards in the
-                                environment. 
-                                </p>
-                                <img src={card} alt="" className="label-img"></img>
-                            </div>
-                            
-                            <ul className="tool-list">
-                                <li>C#</li>
-                                <li>Unity</li>
-                                <li>Google ARCore</li>
-                                
-                            </ul>
-                        </div>
-
-                        <div className="overlay">
-                            <div className="github">
-                                <p> See the Code on Github! </p>
-                                <img src={gitimage} alt="Octocat" className="git-image"></img>
-                            </div>
-                            
-                        </div>
-                        </a>
                     
 
                 </div>
