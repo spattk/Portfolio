@@ -1,31 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "60808ed404cfdecba651fa55fe275c64",
+    "revision": "e7424542816b83985ea66f1c93159ba4",
     "url": "/Portfolio/index.html"
   },
   {
-    "revision": "1c34a0271756801954df",
-    "url": "/Portfolio/static/css/2.7abef457.chunk.css"
+    "revision": "f484b8a713bfb9082847",
+    "url": "/Portfolio/static/css/2.4707e12a.chunk.css"
   },
   {
-    "revision": "ce1bec31eb570302aff7",
-    "url": "/Portfolio/static/css/main.4091b8a3.chunk.css"
+    "revision": "d0a251a26cc396d797c9",
+    "url": "/Portfolio/static/css/main.9b76ae15.chunk.css"
   },
   {
-    "revision": "1c34a0271756801954df",
-    "url": "/Portfolio/static/js/2.3bb85895.chunk.js"
+    "revision": "f484b8a713bfb9082847",
+    "url": "/Portfolio/static/js/2.83e545dd.chunk.js"
   },
   {
-    "revision": "ce1bec31eb570302aff7",
-    "url": "/Portfolio/static/js/main.106232ca.chunk.js"
+    "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
+    "url": "/Portfolio/static/js/2.83e545dd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "dd4ccac87fb3e093eacc",
-    "url": "/Portfolio/static/js/runtime-main.665a1c84.js"
+    "revision": "d0a251a26cc396d797c9",
+    "url": "/Portfolio/static/js/main.a59ffeae.chunk.js"
   },
   {
-    "revision": "25e8c531d74af73d89880c4f531125ae",
-    "url": "/Portfolio/static/media/Resume.25e8c531.docx"
+    "revision": "425e952245b014fc3ffb",
+    "url": "/Portfolio/static/js/runtime-main.db605a1d.js"
+  },
+  {
+    "revision": "57fd4757213e1f412d0ec33a8bf3dd23",
+    "url": "/Portfolio/static/media/RamanResume.57fd4757.docx"
   },
   {
     "revision": "17d92c071272941b78620259a115d1a9",
@@ -44,8 +48,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio/static/media/github-circle.d150d4d6.svg"
   },
   {
-    "revision": "76d344f08412543c74ccd1fb2493d607",
-    "url": "/Portfolio/static/media/github.76d344f0.svg"
+    "revision": "b53ff55e09a092f9f0cbbf74af01b715",
+    "url": "/Portfolio/static/media/github.b53ff55e.svg"
   },
   {
     "revision": "8fcac3b248cff064c0d887b34489cd24",
