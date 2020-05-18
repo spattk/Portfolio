@@ -59,7 +59,7 @@ class About extends React.Component {
                 <div  className="image">
                     <img data-aos = "fade-down" data-aos-duration="750" src={profPic} alt=""></img>
                     <div data-aos = "fade-up" data-aos-duration="750" data-aos-anchor=".image">
-                        <HoverButton page={resume} text = "Resume" download="Resume.docx"></HoverButton>
+                        <HoverButton page={resume} text = "Resume" download="RamanResume.docx"></HoverButton>
                     </div>
                  </div>
 
