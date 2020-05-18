@@ -1,7 +1,7 @@
 import React from 'react'
 import './About.css'
 import profPic from "../images/profpic.jpg"
-import resume from "../files/Resume.docx"
+import resume from "../files/RamanResume.docx"
 import HoverButton from "./HoverButton.js"
 import 'aos/dist/aos.css';
 
@@ -59,7 +59,7 @@ class About extends React.Component {
                 <div  className="image">
                     <img data-aos = "fade-down" data-aos-duration="750" src={profPic} alt=""></img>
                     <div data-aos = "fade-up" data-aos-duration="750" data-aos-anchor=".image">
-                        <HoverButton page={resume} text = "Resume" download="RamanResume.docx"></HoverButton>
+                        <HoverButton page={resume} text = "Resume" download="Resume.docx"></HoverButton>
                     </div>
                  </div>
 

@@ -5,14 +5,14 @@
   "homepage": "https://ramanxg.github.io/Portfolio/",
   "dependencies": {
     "aos": "^2.3.4",
-    "gh-pages": "^2.1.1",
+    "babel-loader": "^8.1.0",
+    "gh-pages": "^2.2.0",
     "raleway-webfont": "^3.0.1",
-    "react": "^16.9.0",
-    "react-bootstrap": "^1.0.0-beta.12",
-    "react-dom": "^16.9.0",
-    "react-particles-js": "^2.7.0",
-    "react-scripts": "^3.4.1",
-    "babel-loader": "8.1.0"
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.0.1",
+    "react-dom": "^16.13.1",
+    "react-particles-js": "^2.7.1",
+    "react-scripts": "^3.4.1"
   },
   "scripts": {
     "start": "react-scripts start",
