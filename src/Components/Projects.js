@@ -107,7 +107,7 @@ class Projects extends React.Component {
                                     <li>JavaScript</li>
                                     <li>React Native</li>
                                     <li>Express.js</li>
-                                    <li>Nodes.js</li>
+                                    <li>Node.js</li>
                                     
                                 </ul>
                             </div>
@@ -146,7 +146,7 @@ class Projects extends React.Component {
                                 <li>SQL</li>
                                 <li>Beautiful Soup</li>
                                 <li>React</li>
-                                <li>Express.js</li>
+                                <li>Node.js</li>
                                 <li>Express</li>
                                 <li>AWS</li>
                                 

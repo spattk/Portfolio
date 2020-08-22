@@ -18,7 +18,7 @@ class About extends React.Component {
 
             <div className="content">
                 <div className="text-section" data-aos ="fade-up" data-aos-duration="750">
-                    <p className="text"> Hi, I'm Raman, a second-year student studying Computer Science at 
+                    <p className="text"> Hi, I'm Raman, a third-year student studying Computer Science at 
                     <a className = "highlight" target = "_blank" rel="noopener noreferrer" href="https://www.ics.uci.edu/"> UC Irvine</a>. 
                     I enjoy exploring new concepts of Computer Science. From Web Development to Machine
                     Learning, I am always interested in creating new innovative products. I always try
@@ -47,6 +47,8 @@ class About extends React.Component {
                                 <li>Tensorflow</li>
                                 <li>Keras</li>
                                 <li>React.js</li>
+                                <li>Angular</li>
+                                <li>Django</li>
                                 <li>React Native</li>
                                 <li>Flask</li>
                                 <li>AWS</li>
