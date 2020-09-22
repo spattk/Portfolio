@@ -6,7 +6,7 @@ import neuralnet from "../images/neuralnet.png"
 import convnet from "../images/convnet.png"
 import reco from "../images/reco.png"
 import twit from "../images/twitter.jpg"
-import reclaim from "../images/website.png"
+import gride from "../images/gride.jpg"
 import card from "../images/cARd.jpg"
 import allerg from "../images/allergize.jpg"
 import portal from "../images/portal.png"
@@ -132,7 +132,7 @@ class Projects extends React.Component {
                             <div className="image-container">
                                 <h3>PeterPortal (In Progress)</h3>
                                 <p>A website that can search through the UCI catalogue for courses and includes 
-                                    professor reviews, grade distributions, and a schedule planner.This was created
+                                    professor reviews, grade distributions, and a schedule planner. This was created
                                     in a team of twelve in the ICSSC Projects Committee. I was responsible for designing
                                     the SQL database for reviews, and scraping the UCI catalogue for course and faculty
                                     information. We hosted our servers on AWS RDS and ElasticSearch.
@@ -190,28 +190,28 @@ class Projects extends React.Component {
                     </a>
 
 
-                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/chenaaron3/CitrusHacks2019"
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/chenaaron3/Gride"
                     data-aos-delay="500" data-aos-duration="750" data-aos="fade-up" className="example">
 
                         <div className="base">
                             <div className="image-container">
-                                <h3>reclaimEarth</h3>
-                                <p>A crowdsourcing website that lets users ping locations with a lot
-                                of litter on Google Maps. Project created at CitrusHack 2019 with a team of 3.
-                                I was responsible for implementing the Google Maps API and incorporating Firebase
-                                databases with users. We deployed the website through Heroku.</p>
+                                <h3>Gride</h3>
+                                <p>A website that lets users post rides for others to join and reach a common
+                                destination. Project created at SBHacks 2020 with a team of 4.
+                                I was responsible for designing the Firebase database for storing ride information 
+                                and creating interaction between the client website and the database.</p>
                                 
-                                    <img src={reclaim} alt="" className="label-img"></img>
+                                    <img src={gride} alt="" className="label-img"></img>
                             </div>
                             
                             <ul className="tool-list">
                                 <li>JavaScript</li>
-                                <li>Python</li>
+                                <li>React.js</li>
+                                <li>Next.js</li>
                                 <li>HTML</li>
                                 <li>CSS</li>
-                                <li>Flask</li>
                                 <li>Firebase</li>
-                                <li>Google Maps API</li>
+                                <li>Twilio API</li>
 
                             </ul>
                         </div>
