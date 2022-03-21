@@ -1,4 +1,4 @@
-This porfolio is forked from [Raman Gupta](https://github.com/ramanxg/Portfolio)
+This porfolio is forked from [Raman Gupta](https://ramanxg.github.io/Portfolio/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
