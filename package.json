@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ramanxg.github.io/Portfolio/",
+  "homepage": "https://spattk.github.io/Portfolio/",
   "dependencies": {
     "aos": "^2.3.4",
     "babel-loader": "^8.1.0",
