@@ -26,10 +26,10 @@ function App() {
         <div style={{position: "absolute"}}>
            
             <p className="greeting">
-              Hello, my name is <span className="name" >Raman Gupta</span>.
+              Hello, my name is <span className="name" >Sitesh Pattanaik</span>.
             </p>
             <p>
-              I am a Creator.
+              I am a Computer Science Engineer, Writer and Explorer.
             </p>
             <br/>
             <HoverButton page="#about" text="See my work"></HoverButton>
